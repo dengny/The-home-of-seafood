@@ -9,22 +9,41 @@
 .header_img_size {
     display: block;
     height: 3rem;
+    transition:1s;
 }
-
+.header_img_size:hover{
+    transform:rotate(720deg) skew(360deg);
+}
 .search {
     border: 1px solid #ddd;
+    border-radius: 5%;
 }
-
 .header_btn {
     display: inline-block;
     height: 100%;
-    width: 15%;
-    border: none;
+    margin:0;
+    color:#fff;
+    background:rgb(35, 165, 216);
+    width: 20%;
+    border:none;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
-
+.header_btn:hover {
+    color:rgb(228, 34, 34);
+}
 .header_input {
     display: inline-block;
     height: 100%;
-    width: 81%;
+    width: 80%;
+    margin:0;
     border: none;
+}
+.header_a{
+    text-decoration: none;
+    color:#aaa;
+    font-weight:bold;
+}
+.header_a:hover{
+    color:rgb(228, 34, 34);
 }
