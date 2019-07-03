@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    justify-content: start;
+}
+
+.flex>a {
+    text-decoration: none;
+    paading: 1rem;
+    color: rgb(24, 20, 20);
+}
+
+.flex>a:hover {
+    color: rgb(240, 14, 14);
+    background: #ddd;
+}

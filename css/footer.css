@@ -1,0 +1,33 @@
+.footer {
+    height: 7rem;
+    background: #ddd;
+}
+
+.footer_list {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_list li {
+    list-style: none;
+}
+
+.footer_list li:after {
+    content: "|";
+    margin-left: 2rem;
+}
+
+.footer_list li a {
+    text-decoration: none;
+    color: rgb(20, 14, 14);
+}
+
+.footer_list li a:hover {
+    color: rgb(10, 238, 21);
+}
+
+.footer p {
+    margin-top: 1rem;
+    text-align: center;
+}
