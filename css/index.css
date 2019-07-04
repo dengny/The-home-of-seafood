@@ -1,17 +1,26 @@
 .flex {
     display: flex;
     margin-top: 4rem;
-    margin-left: 1rem;
+    background: #005bac;
     justify-content: start;
+    align-items: center;
+    height: 3rem;
 }
 
 .flex>a {
     text-decoration: none;
-    paading: 1rem;
+    padding: 1rem;
     color: rgb(24, 20, 20);
 }
 
 .flex>a:hover {
     color: rgb(240, 14, 14);
+    transform: translateY(-2px);
     background: #ddd;
+    border-bottom: 2px solid #005bac;
+}
+
+.carousel {
+    background: red;
+    height: 30rem;
 }
