@@ -1,0 +1,74 @@
+div#banner {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul#ul-imgs {
+    width: 5000px;
+    list-style: none;
+}
+
+ul#ul-imgs.transition {
+    transition: all .5s linear;
+}
+
+ul#ul-imgs>li {
+    width: 1000px;
+    float: left;
+}
+
+ul#ul-imgs>li img {
+    width: 100%;
+}
+
+ul#ul-idxs {
+    width: 100px;
+    list-style: none;
+    position: absolute;
+    bottom: 25px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -50px;
+}
+
+ul#ul-idxs>li {
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+ul#ul-idxs>li.active {
+    background-color: blue;
+}
+
+div#btn-right,
+div#btn-left {
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+div#btn-right {
+    right: 20px;
+    background-image: url(../img/right_ar.png);
+}
+
+div#btn-left {
+    left: 20px;
+    background-image: url(../img/left_ar.png);
+}
+
+div#btn-left:hover,
+div#btn-right:hover {
+    background-size: 40px 70px;
+}
